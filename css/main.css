@@ -17,11 +17,12 @@
         /* Makes main content grow and push footer down */
         flex-grow: 1;
     }
+    /*
     h1 {
         font-family: "Faster One", sans-serif;
-        font-size: 8em;
         color: whitesmoke;
     }
+    */
     h2 {
         font-family: "Roboto", sans-serif;
         font-size: 4em;
