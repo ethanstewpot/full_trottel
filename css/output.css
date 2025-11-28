@@ -25,13 +25,10 @@
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
-<<<<<<< HEAD
-=======
     --text-6xl: 3.75rem;
     --text-6xl--line-height: 1;
     --text-9xl: 8rem;
     --text-9xl--line-height: 1;
->>>>>>> 19b6ad0 (first draft)
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -243,23 +240,14 @@
   .text-center {
     text-align: center;
   }
-<<<<<<< HEAD
-=======
-  .font-\[Faster_One\] {
-    font-family: Faster One;
-  }
->>>>>>> 19b6ad0 (first draft)
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
-<<<<<<< HEAD
-=======
   .text-4xl {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
   }
->>>>>>> 19b6ad0 (first draft)
   .text-lg {
     font-size: var(--text-lg);
     line-height: var(--tw-leading, var(--text-lg--line-height));
@@ -272,12 +260,6 @@
     --tw-leading: 1;
     line-height: 1;
   }
-<<<<<<< HEAD
-=======
-  .text-\[whitesmoke\] {
-    color: whitesmoke;
-  }
->>>>>>> 19b6ad0 (first draft)
   .text-white {
     color: var(--color-white);
   }
@@ -309,21 +291,12 @@
       line-height: var(--tw-leading, var(--text-3xl--line-height));
     }
   }
-<<<<<<< HEAD
-=======
   .sm\:text-6xl {
     @media (width >= 40rem) {
       font-size: var(--text-6xl);
       line-height: var(--tw-leading, var(--text-6xl--line-height));
     }
   }
-  .sm\:text-9xl {
-    @media (width >= 40rem) {
-      font-size: var(--text-9xl);
-      line-height: var(--tw-leading, var(--text-9xl--line-height));
-    }
-  }
->>>>>>> 19b6ad0 (first draft)
   .sm\:text-xl {
     @media (width >= 40rem) {
       font-size: var(--text-xl);
@@ -353,15 +326,12 @@
       line-height: var(--tw-leading, var(--text-5xl--line-height));
     }
   }
-<<<<<<< HEAD
-=======
   .lg\:text-9xl {
     @media (width >= 64rem) {
       font-size: var(--text-9xl);
       line-height: var(--tw-leading, var(--text-9xl--line-height));
     }
   }
->>>>>>> 19b6ad0 (first draft)
 }
 @layer base {
   body {
@@ -376,14 +346,6 @@
   main {
     flex-grow: 1;
   }
-<<<<<<< HEAD
-  h1 {
-    font-family: "Faster One", sans-serif;
-    font-size: 8em;
-    color: whitesmoke;
-  }
-=======
->>>>>>> 19b6ad0 (first draft)
   h2 {
     font-family: "Roboto", sans-serif;
     font-size: 4em;
