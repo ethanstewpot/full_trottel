@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        background-image: url("/images/background.jpg");
+        background-size: cover;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        /* Makes main content grow and push footer down */
+        flex-grow: 1;
+    }
+    h1 {
+        font-family: "Faster One", sans-serif;
+        font-size: 8em;
+        color: whitesmoke;
+    }
+    h2 {
+        font-family: "Roboto", sans-serif;
+        font-size: 4em;
+        color: whitesmoke;
+    }
+    h3 {
+        font-family: "Orbitron", sans-serif;
+        font-size: 4em;
+        color: rgb(31, 38, 42); /* #1f262a */
+    }
+}

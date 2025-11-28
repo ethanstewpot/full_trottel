@@ -2,38 +2,79 @@
 
 <html>
     <head>
-        <!-- Container for meta data -->
         <title>Full Trottel Cycling Club</title>
-        <style>
-            body {
-                background-color: magenta;
-            }
-            h1 {
-                color: whitesmoke;
-            }
-        </style>
 
         <link rel="stylesheet" href="css/main.css" />
-        <!--
         <link rel="stylesheet" href="css/output.css" />
-        <script src="js/main.js" defer></script>
-       -->
 
-        <!-- Link to external sources -->
-        <!-- Meta: used by browsers and search engins -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Faster+One&family=Orbitron:wght@900&family=Roboto:wght@900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        />
         <meta charset="UTF-8" />
-        <meta name="keywords" content="stuff, things, bits" />
-        <meta name="author" , content="Your Name" />
-        <!-- set view port to fit correctly to screen size -->
+        <meta
+            name="keywords"
+            content="Fixed gear, fixie, single speed, cycling, Vienna, Wien"
+        />
+        <meta name="author" , content="That guy with the black bike" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script>
-            <!-- Client side JavaScript -->
-        </script>
-        <base href="https://mysite.com/" target="_blank" />
-        <!-- base URL of site and/or target for relative URLs on page -->
+        <base target="_blank" />
     </head>
     <body>
-        <h1>Comimng Soon!</h1>
-        <small>(in yo Mama)</small>
+        <main>
+        <h1 class="text-center leading-none mb-8">
+            Full Trottel <br />
+            Cycling Club
+        </h1>
+        <div class="text-center px-4 sm:px-6 lg:px-0">
+            <h2
+                style="
+                    font-family: &quot;Roboto&quot;, sans-serif;
+                    font-weight: 900; color: whitesmoke;
+                "
+                class="text-2xl sm:text-3xl lg:text-5xl text-white mb-4"
+            >
+                More info:
+            </h2>
+
+            <a
+                href="https://instagram.com/fulltrottel.cc"
+                target="_blank"
+                class="inline-flex items-center justify-center space-x-2"
+            >
+                <i
+                    class="fa-brands fa-instagram text-2xl sm:text-3xl lg:text-4xl"
+                ></i>
+                <span
+                    style="font-family: &quot;Orbitron&quot;, sans-serif; font-weight: 900; color: #1f262a; "
+                    class="text-lg sm:text-xl lg:text-3xl"
+                >
+                    @FULLTROTTEL.CC
+                </span>
+            </a>
+        </div>
+</main>
+        <footer class="w-full text-white text-sm py-2">
+          <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between">
+
+            <span>&copy; <span id="year"></span> Full Trottel Cycling Club.</span>
+
+            <a href="impressum.html" target="_self" class="hover:text-gray-300 mt-2 sm:mt-0">Impressum</a>
+          </div>
+        </footer>
+
+
+
+
+          <!-- Script to update the year automatically -->
+          <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+          </script>
+        </body>
+
     </body>
 </html>
